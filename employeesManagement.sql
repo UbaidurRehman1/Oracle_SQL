@@ -10,7 +10,7 @@ create table countries
     country_id int primary key,
     country_name varchar(255),
     region_id int,
-    constraint fk_cout_regions foreign key (country_id) REFERENCES regions(region_id)
+    constraint fk_cout_regions foreign key (region_id) REFERENCES regions(region_id)
 );
 create table locations
 (
@@ -65,3 +65,5 @@ create table job_history
     constraint fk_job_history_emp foreign key (employee_id) references employees(employee_id),
     constraint fk_job_history_dept foreign key (department_id) REFERENCES departments(department_id)
 );
+
+
