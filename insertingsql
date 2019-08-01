@@ -1,0 +1,48 @@
+--------------------------------------Region Table--------------------------------
+
+--insert into "SYSTEM"."REGIONS" values(1, 'EU-1');
+--insert into "SYSTEM"."REGIONS" values(2, 'Aisia');
+--insert into "SYSTEM"."REGIONS" values(3, 'EU-3');
+--insert into "SYSTEM"."REGIONS" values(4, 'US-1');
+--insert into "SYSTEM"."REGIONS" values(5, 'EU-5');
+--insert into "SYSTEM"."REGIONS" values(6, 'AFRICA-9');
+--insert into "SYSTEM"."REGIONS" values(7, 'US-2');
+--insert into "SYSTEM"."REGIONS" values(8, 'Central Aisia');
+--insert into "SYSTEM"."REGIONS" values(9, 'EU-12');
+--insert into "SYSTEM"."REGIONS" values(10, 'US-23');
+
+-------------------------------------Countries Table--------------------------------
+--insert into "SYSTEM"."COUNTRIES" values(1, 'United States', 4);
+--insert into "SYSTEM"."COUNTRIES" values(2, 'Pakistan', 2);
+--insert into "SYSTEM"."COUNTRIES" values(3, 'India', 2);
+--insert into "SYSTEM"."COUNTRIES" values(4, 'Bangla Desh', 2);
+--insert into "SYSTEM"."COUNTRIES" values(5, 'Maldeeve', 2);
+--insert into "SYSTEM"."COUNTRIES" values(6, 'England', 5);
+--insert into "SYSTEM"."COUNTRIES" values(7, 'Finland', 5);
+--insert into "SYSTEM"."COUNTRIES" values(8, 'Sweden', 5);
+--insert into "SYSTEM"."COUNTRIES" values(9, 'Ireland', 5);
+--insert into "SYSTEM"."COUNTRIES" values(10, 'Malysia', 2);
+--insert into "SYSTEM"."COUNTRIES" values(11, 'Japan", 2);
+
+--------------------------------------Locations--------------------------------------
+--insert into "SYSTEM"."LOCATIONS" values(1, 'Street 10', 44000, 'Islamabad', 'Fedral Area', 2);
+insert into "SYSTEM"."LOCATIONS" values(2, 'Street 10', 44001, 'Mumbai', 'Federal Area', 3);
+insert into "SYSTEM"."LOCATIONS" values(3, 'Street 11', 44002, 'Deli', 'Federal Area', 3);
+insert into "SYSTEM"."LOCATIONS" values(4, 'Street 12', 44005, 'Mumbai', 'Maharehsta', 3);
+insert into "SYSTEM"."LOCATIONS" values(5, 'Street 13', 44004, 'Lahore', 'Punjab', 2);
+insert into "SYSTEM"."LOCATIONS" values(6, 'Street 15', 44002, 'DC Washington', 'Federal Area', 1);
+insert into "SYSTEM"."LOCATIONS" values(7, 'Street 15', 44009, 'Neo York', 'New York', 1);
+insert into "SYSTEM"."LOCATIONS" values(8, 'Street 19', 44010, 'Los Angeles', 'Keli Fornia', 1);
+insert into "SYSTEM"."LOCATIONS" values(9, 'Street 12', 44011, 'London', 'Federal Area', 6);
+insert into "SYSTEM"."LOCATIONS" values(10, 'Street 11', 44012, 'Berminghum', 'Berminghum', 6);
+insert into "SYSTEM"."LOCATIONS" values(11, 'Street 14', 44013, 'Karachi', 'Sindh', 2);
+
+
+
+
+
+
+
+
+
+
